@@ -43,8 +43,49 @@
     </aside>
 
     <main>
+        <div class="container__upload">
+            <div class="container__upload__imagem" >
+                <img src="./img/imagem1.png" alt="" >
+            </div>
+              
+                                  
+            <div class="container__upload__button">
+                <button>Carregar Imagem</button>
+                <img src="./img/upload.svg">
+            </div>
+            <div class="container__upload__nome">
+                <p>image_projeto.png</p>
+                <img src="./img/close.svg">
+            </div>       
+        </div>
 
-
+        <div class="container__upload__descricao">
+            <h2>Novo projeto</h2>
+            <form>
+                <div>
+                    <label for="nome__projeto">Nome do projeto</label>
+                    <input type="text" id="nome__projeto" name="nome__projeto"/>
+                </div>
+                <div>
+                    <label for="descricao__projeto">Descrição</label>
+                    <textarea id="descricao__projeto" name="descricao__projeto"></textarea>
+                </div>
+                <div>
+                    <label for="tags__projeto">Tags</label>
+                    <input type="text" id="tags__projeto" name="tags__projeto"/>
+                </div>
+                <ul class="lista__tags">
+                    <li>
+                        <p>Front-end</p>
+                        <img src="./img/close-black.svg">
+                    </li>
+                </ul>
+                <div class="container__botoes">
+                    <button class="botao_descartar">Descartar</button>
+                    <button class="botao__publicar">Publicar</button>
+                </div>
+            </form>      
+        </div>
 
     </main>
     
