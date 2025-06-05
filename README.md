@@ -1,2 +1,1 @@
-# JavaScriptAssincrono
-Nesse repositório irei criar um projeto em Html/CSS a partir da análise de um layout no figma. Após isso irei aplicar conceitos de JavaScript Assíncrono.
+Este repositório contém um projeto desenvolvido com HTML e CSS, baseado na análise e reprodução de um layout criado no Figma. Após a construção da estrutura visual, serão aplicados e demonstrados conceitos de JavaScript Assíncrono, como Promises, async/await e manipulação de requisições assíncronas, com o objetivo de aprofundar o conhecimento prático nessas técnicas.
